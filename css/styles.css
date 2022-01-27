@@ -1,0 +1,45 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+.img1-cat {
+    width: 10%;
+}
+
+.bodybg {
+    background: rgb(231, 233, 238);
+    background: linear-gradient(180deg, rgba(231, 233, 238, 1) 0%, rgba(216, 205, 176, 1) 62%, rgba(28, 33, 53, 1) 100%);
+}
+
+.nav {
+    background-color: #1c2135;
+}
+
+.nav a {
+    color: wheat;
+}
+
+.h2textform {
+    color: rgba(216, 205, 176, 1);
+    text-align: center;
+}
+
+.form-contact {
+    margin: 3rem;
+}
+
+
+/*Anotcaciones para comprender como clasificar nuevos elementos
+
+Los titulos se anotaran de la siguiente manera: "hXtext" cambiandose la X por el numero del titulo x ejemplo para h2 se utilizara h2text
+los parrafos se anotaran como ptext*/
